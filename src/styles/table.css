@@ -13,6 +13,7 @@ th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+  font-size: 1.2rem;
 }
 
 tr:nth-child(even) {
@@ -30,6 +31,7 @@ tr:nth-child(even) {
 .container__title {
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 3rem;
 }
 
 .form {
@@ -40,6 +42,7 @@ tr:nth-child(even) {
 
 .form__lable {
   margin-right: 1rem;
+  font-size: 1.2rem;
 }
 
 .hidden {
@@ -70,8 +73,28 @@ tr:nth-child(even) {
 
 input {
   width: 70%;
+  border: solid 2px #9d9d9d;
+  border-radius: 5px;
+  outline: none;
 }
 
-.button__add {
+input:focus {
+  font-size: 1rem;
+  border: solid 2px rgb(187, 187, 232);
+}
+
+.button {
   cursor: pointer;
+  font-size: 1rem;
+  border: solid 2px #9d9d9d;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: rgb(187, 187, 232);
+}
+
+.button:active {
+  background-color: rgb(108, 108, 231);
 }

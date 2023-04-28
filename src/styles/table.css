@@ -1,3 +1,8 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
@@ -39,4 +44,34 @@ tr:nth-child(even) {
 
 .hidden {
   display: none;
+}
+
+.table__button_up {
+  height: 12px;
+  background-image: url(../arrow-up.svg);
+  background-repeat: no-repeat;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.table__button_down {
+  height: 12px;
+  background-image: url(../arrow-down.svg);
+  background-repeat: no-repeat;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.table__button_up:active,
+.table__button_down:active {
+  scale: 0.8;
+}
+
+input {
+  width: 70%;
+}
+
+.button__add {
+  cursor: pointer;
 }

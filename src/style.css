@@ -23,8 +23,25 @@ h5 {
 .container {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   padding: 1.5rem 1.5rem;
+}
+
+.cards-wrapp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media screen and (min-width: 768px) {
+  .cards-wrapp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 .container__title {
@@ -34,6 +51,7 @@ h5 {
 
 .card {
   width: 265px;
+  height: fit-content;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -41,6 +59,10 @@ h5 {
   margin-top: 2rem;
   background-color: white;
   border-radius: 0.5rem;
+}
+
+.card:hover {
+  border-color: #b0d585;
 }
 
 .card__title {
@@ -51,7 +73,7 @@ h5 {
 .card__tax {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   justify-content: center;
   align-items: flex-end;
 }
@@ -81,12 +103,16 @@ h5 {
 }
 
 .card__info_list {
-  margin-top: 2rem;
+  margin-top: 4.3rem;
   padding-left: 1rem;
   padding-right: 1rem;
   font-family: 'Poppins', sans-serif;
   font-size: 0.8rem;
   font-weight: 500;
+}
+
+.short {
+  margin-top: 2rem;
 }
 
 .card__info_item {

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/table.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="container__title">Clients</h2>
+      <form class="form">
+        <lable class="form__lable"
+          >Name
+          <input type="text" class="form__input-name" />
+        </lable>
+        <lable class="form__lable"
+          >Email
+          <input type="email" class="form__input-email" />
+        </lable>
+        <lable class="form__lable"
+          >Age
+          <input type="number" class="form__input-age" />
+        </lable>
+        <button type="submit" class="button__add">Add new client</button>
+      </form>
+      <table class="table">
+        <tr>
+          <th>id</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Edit/Delete</th>
+        </tr>
+      </table>
+    </div>
+    <script src="./table.js"></script>
+  </body>
+</html>

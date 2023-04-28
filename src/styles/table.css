@@ -1,0 +1,77 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem 1.5rem;
+}
+
+.container__title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.form {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+
+.form__lable {
+  margin-right: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.table__button_up {
+  height: 12px;
+  background-image: url(../arrow-up.svg);
+  background-repeat: no-repeat;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.table__button_down {
+  height: 12px;
+  background-image: url(../arrow-down.svg);
+  background-repeat: no-repeat;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.table__button_up:active,
+.table__button_down:active {
+  scale: 0.8;
+}
+
+input {
+  width: 70%;
+}
+
+.button__add {
+  cursor: pointer;
+}

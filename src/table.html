@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/table.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="container__title">Clients</h2>
+      <form class="form">
+        <lable class="form__lable"
+          >Name
+          <input type="text" class="form__input-name" />
+        </lable>
+        <lable class="form__lable"
+          >Email
+          <input type="email" class="form__input-email" />
+        </lable>
+        <lable class="form__lable"
+          >Age
+          <input type="number" class="form__input-age" />
+        </lable>
+        <button type="submit" class="button__add">Add new client</button>
+      </form>
+      <table class="table">
+        <col style="width: 8%" />
+        <col style="width: 37%" />
+        <col style="width: 30%" />
+        <col style="width: 10%" />
+        <col style="width: 15%" />
+        <tr>
+          <th class="table__header">
+            id
+            <button type="button" id="btn-up-id" class="table__button_up"></button>
+            <button type="button" id="btn-down-id" class="table__button_down"></button>
+          </th>
+          <th class="table__header">
+            Name
+            <button type="button" id="btn-up-name" class="table__button_up"></button>
+            <button type="button" id="btn-down-name" class="table__button_down"></button>
+          </th>
+          <th>
+            Email
+            <button type="button" id="btn-up-email" class="table__button_up"></button>
+            <button type="button" id="btn-down-email" class="table__button_down"></button>
+          </th>
+          <th>
+            Age
+            <button type="button" id="btn-up-age" class="table__button_up"></button>
+            <button type="button" id="btn-down-age" class="table__button_down"></button>
+          </th>
+          <th>Edit/Delete</th>
+        </tr>
+      </table>
+    </div>
+    <script src="./table.js"></script>
+  </body>
+</html>

@@ -55,14 +55,24 @@ h5 {
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 1.3rem 1.7rem;
+  padding: 1.3rem 1.6rem;
   margin-top: 2rem;
   background-color: white;
   border-radius: 0.5rem;
+  transition: 0.3s;
 }
 
-.card:hover {
-  border-color: #b0d585;
+@media screen and (min-width: 1200px) {
+  .card:hover {
+    cursor: pointer;
+    border: solid 2px #98cb5c;
+    scale: 1.05;
+  }
+
+  .card:hover .card__button {
+    background-color: #98cb5c;
+    border-color: #98cb5c;
+  }
 }
 
 .card__title {
@@ -104,8 +114,8 @@ h5 {
 
 .card__info_list {
   margin-top: 4.3rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
   font-family: 'Poppins', sans-serif;
   font-size: 0.8rem;
   font-weight: 500;
@@ -142,6 +152,7 @@ h5 {
   border: solid 1px #202d6a;
   font-size: 0.8rem;
   background-color: #fff;
+  transition: 0.3s;
 }
 
 .card__button_link {

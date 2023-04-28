@@ -153,8 +153,8 @@ function addClient(name, email, age) {
         <input id="input-age" type="number" class="hidden" value=${age} />
     </td>
     <td>
-        <button type="button" class="button__edit">Edit</button>
-        <button type="button" class="button__delete">Delete</button>
+        <button type="button" class="button button__edit">Edit</button>
+        <button type="button" class="button button__delete">Delete</button>
     </td>
   `;
 

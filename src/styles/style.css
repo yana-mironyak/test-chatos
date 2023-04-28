@@ -202,3 +202,8 @@ h5 {
 .card__ribbon:after {
   right: 0;
 }
+
+.second-task {
+  margin-top: 4rem;
+  font-size: 1.2rem;
+}

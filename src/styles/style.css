@@ -138,7 +138,7 @@ h5 {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background-image: url(./checkmark-outline.svg);
+  background-image: url(../checkmark-outline.svg);
   background-repeat: no-repeat;
   content: '';
   margin-right: 0.5rem;
@@ -201,10 +201,4 @@ h5 {
 }
 .card__ribbon:after {
   right: 0;
-}
-
-.second-task {
-  position: absolute;
-  bottom: 50px;
-  font-size: 1.2rem;
 }

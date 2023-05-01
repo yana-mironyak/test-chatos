@@ -76,10 +76,10 @@ input {
   border: solid 2px #9d9d9d;
   border-radius: 5px;
   outline: none;
+  font-size: 1rem;
 }
 
 input:focus {
-  font-size: 1rem;
   border: solid 2px rgb(187, 187, 232);
 }
 
